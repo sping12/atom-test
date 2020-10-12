@@ -1,13 +1,13 @@
 var x = Math.floor(Math.random()*9)+1;
 var y = Math.floor(Math.random()*9)+1;
-var guguResult = x*y
+var guguResult = x*y;
 
-var guguField = document.querySelector('.guguField')
-var gugu = document.querySelector('.gugu')
-var guesses = document.querySelector('.guesses')
+var guguField = document.querySelector('.guguField');
+var gugu = document.querySelector('.gugu');
+var guesses = document.querySelector('.guesses');
 
-var lastResult = document.querySelector('.lastResult')
-var guguSubmit = document.querySelector('.guguSubmit')
+var lastResult = document.querySelector('.lastResult');
+var guguSubmit = document.querySelector('.guguSubmit');
 
 var guguCount = 1;
 
