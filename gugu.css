@@ -1,0 +1,48 @@
+body {
+  border:0;
+  padding:0;
+  margin:0;
+  position:relative;
+  width:100%;
+
+}
+
+.guguContainer, .resultParas {
+  text-align:center;
+  width:50%;
+  max-width:800px;
+  min-width:480px;
+  margin: 0 auto;
+
+}
+
+.headContainer {
+  text-align:center;
+
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+.guesses {
+  text-align:left;
+}
+
+.gugu {
+  font-size:2rem;
+  font-weight:bold;
+}
+.guguSubmit {
+  border-radius:10px;
+  height:2rem;;
+  font-size:1rem;  
+  margin:0;
+}
+/*#bodyContainer {
+  border:2px solid black;
+  width: 50%;
+  left: 25%;
+  position:absolute;
+}*/

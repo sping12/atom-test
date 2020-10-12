@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>구구단 페이지</title>
+    <link rel="stylesheet" href="gugu.css">
+  </head>
+  <body>
+  <div id="bodyContainer">
+    <div class="headContainer">
+      <hgroup>
+        <h1>구구단 풀기</h1>
+        <div>구구단을 풀어봅시다. 문제는 랜덤입니다.</div>
+      </hgroup>
+    </div>
+    <div class="guguContainer">
+      구구단을 풀어봅시다.
+      <div class="gugu"></div>
+      <div class="form">
+        <label for="guessField">정답을 입력하세요</label>
+        <input type="text" id="guguField" class="guguField">
+        <input type="submit" value="정답제출" class="guguSubmit" >
+      </div>
+    </div>
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </div>
+  <script src="gugu.js"></script>
+  </body>
+</html>
