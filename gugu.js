@@ -10,6 +10,8 @@ var lastResult = document.querySelector('.lastResult');
 var guguSubmit = document.querySelector('.guguSubmit');
 
 var guguCount = 1;
+var guguColCount = 1;
+var guguWrCount = 1;
 
 gugu.textContent = x + ' ' + 'X' + ' '+ y + ' ' + '=' ;
 
@@ -24,6 +26,7 @@ function checkGuGu() {
     lastResult.textContent = '정답입니다.';
     lastResult.style.backgroundColor = 'green';
     guesses.textContent += '정답' + ' ';
+    guguColCount++;
     changeGuGu();
 
   }
@@ -32,6 +35,7 @@ function checkGuGu() {
     lastResult.textContent = '틀렸습니다.';
     lastResult.style.backgroundColor= 'red';
     guesses.textContent += '틀림' + ' ';
+    guguWrCount++;
     changeGuGu();
   }
 
@@ -45,7 +49,7 @@ guguSubmit.addEventListener('click',checkGuGu);
 
 function changeGuGu() {
   if (guguCount === 10){
-    lastResult.textContent = '끝났습니다..';
+    lastResult.textContent = '끝났습니다..';+'현재 점수는'+guguColCount*10+'점입니다.'
     setGameOver();
   }
   randomGuGu();
