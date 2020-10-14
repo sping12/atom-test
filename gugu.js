@@ -73,6 +73,8 @@ function setGameOver() {
 
 function resetGame() {
   guguCount = 1;
+  guguColCount = 1;
+  guguWrCount = 1;
 
   lastResult.style.backgroundColor = 'white';
   resetButton.parentNode.removeChild(resetButton);
