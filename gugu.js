@@ -49,7 +49,7 @@ guguSubmit.addEventListener('click',checkGuGu);
 
 function changeGuGu() {
   if (guguCount === 10){
-    lastResult.textContent = '끝났습니다..';+'현재 점수는'+guguColCount*10+'점입니다.'
+    lastResult.textContent = '끝났습니다..'+'현재 점수는'+guguColCount*10+'점입니다.';
     setGameOver();
   }
   randomGuGu();
