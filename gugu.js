@@ -10,8 +10,8 @@ var lastResult = document.querySelector('.lastResult');
 var guguSubmit = document.querySelector('.guguSubmit');
 
 var guguCount = 1;
-var guguColCount = 1;
-var guguWrCount = 1;
+var guguColCount = 0;
+var guguWrCount = 0;
 
 gugu.textContent = x + ' ' + 'X' + ' '+ y + ' ' + '=' ;
 
